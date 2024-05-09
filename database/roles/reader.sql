@@ -6,9 +6,6 @@ BEGIN;
 
 GRANT CONNECT ON DATABASE :dbname TO :username;
 
--- Change connection to the target database to set specific grants
-\c :dbname
-
 -- Revoke all default privileges for the user on all tables and views
 REVOKE ALL ON ALL TABLES IN SCHEMA public FROM :username;
 REVOKE ALL ON ALL SEQUENCES IN SCHEMA public FROM :username;

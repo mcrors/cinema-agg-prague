@@ -1,12 +1,11 @@
 ## Database
 
 ### TODO
-* Update bootstrap.sql and bootstrap.sh files to create all usernames and passwords
-* Complete the sql scripts for creating the reader, scraper and cinema_admin roles
-* Ensure the sql scripts are idempotent
+* Finish the bootstrap.sh script
 * Create the posgres database for local use using the docker-compose file
     * The default user, password and database are postgres
 * Create a Makefile target to spin up a docker-compose database and bootstrap the database
+* Test
 
 ### Tables
 
